@@ -38,7 +38,7 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.REPO_TOKEN }}
-        src_path: ./total/.
+        src_path: ./english/total/.
         dst_path: /content/english/total/
         dst_owner: groupdocs-cloud
         dst_repo_name: products-qa.groupdocs.cloud
